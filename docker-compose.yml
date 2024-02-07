@@ -10,5 +10,5 @@ services:
     volumes:
       - ./mosquitto/config:/mosquitto/config 
       - ./mosquitto/data:/mosquitto/data
-      - ./mosquitto/config:/mosquitto/passwords    
+      - ./mosquitto/config:/mosquitto/password    
     restart: always
